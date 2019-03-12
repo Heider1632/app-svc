@@ -1,0 +1,16 @@
+<div class="row">
+    {{#each profesores}}
+    <div class="col-md-3 p-4">
+        <div class="card">
+            <img src="/public/img/avatar2.png" class="card-img-top" alt="logo-teacher">
+            <div class="card-body">
+                <h5 class="card-title text-align-center">Profesor</h5>
+            </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{nombres}}</li>
+            <li class="list-group-item">{{apellidos}}</li>
+        </ul>
+        </div>
+    </div>
+    {{/each}}
+</div>
